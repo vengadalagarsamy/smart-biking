@@ -1,0 +1,225 @@
+/*header section with date, location and weather*/
+.current-head2{
+  height: 80px;
+  width: 100%;
+  margin-left: 25px;
+}
+
+.current-date{
+  float: left;
+  position: relative;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.current-location{
+  float: left;
+  position: absolute;
+  padding-top: 24px;
+  font-size: 28px;
+}
+
+.current-weathr{
+  font-size: 55px;
+  font-weight:200;
+  width:118%;
+  position: relative;
+}
+
+/*weather analysis widget styling*/
+
+.current-analysis{
+  height: 421px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #F9F9F9;
+  opacity: 0.7;
+  border-radius: 10px;
+  color: #000;
+}
+
+.current-weana{
+  font-weight:100;
+  font-size:17px;
+  float:left;
+  padding-left:20px;
+}
+
+/*styling of all elements within weather analysis widget*/
+.current-stats{
+  position:absolute;
+}
+
+.current-windspeed, .current-clouds, .current-visibility, .current-mint, .current-sunrise{
+  background-image: url('../assets/wind.jpg');
+  height:30px;
+  width:30px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  margin-top:70px;
+  margin-left:30px;
+  position:absolute;
+}
+
+.current-windspeed2, .current-clouds2, .current-visibility2, .current-mint2, .current-sunrise2{
+  font-size:15px;
+  font-weight:400;
+  float:left;
+  margin-top:65px;
+  margin-left:70px;
+  position:absolute;
+  white-space: nowrap;
+}
+
+.current-windspeed3, .current-clouds3, .current-visibility3, .current-mint3, .current-sunrise3{
+  font-size:15px;
+  color:#5B5B5B;
+  font-weight:100;
+  float:left;
+  margin-top:85px;
+  margin-left:70px;
+  position:absolute;
+  white-space: nowrap;
+}
+
+.current-clouds{
+  background-image: url('../assets/cloud.png');
+  margin-top:140px;
+}
+
+.current-clouds2{
+  margin-top:135px;
+}
+
+.current-clouds3{
+  margin-top:155px;
+}
+
+.current-visibility{
+  background-image: url('../assets/visibility.png');
+  margin-top:210px;
+}
+
+.current-visibility2{
+  margin-top:205px;
+}
+
+.current-visibility3{
+  margin-top:225px;
+}
+
+.current-mint{
+  margin-top:280px;
+  background-image: url('../assets/mint.png');
+}
+
+.current-mint2{
+  margin-top:275px;
+}
+
+.current-mint3{
+  margin-top:295px;
+}
+
+.current-sunrise{
+  margin-top:350px;
+  background-image: url('../assets/sunrise.png');
+}
+
+.current-sunrise2{
+  margin-top:345px;
+}
+
+.current-sunrise3{
+  margin-top:365px;
+}
+
+.current-humidity, .current-winddir, .current-pressure, .current-maxt, .current-sunset{
+  background-image: url('../assets/winddir.png');
+  height:30px;
+  width:30px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  margin-top:70px;
+  margin-left:190px;
+  position:absolute;
+}
+
+.current-humidity2, .current-winddir2, .current-pressure2, .current-maxt2, .current-sunset2{
+  font-size:15px;
+  font-weight:400;
+  float:left;
+  margin-top:65px;
+  margin-left:230px;
+  position:absolute;
+}
+
+.current-humidity3, .current-winddir3, .current-pressure3, .current-maxt3, .current-sunset3{
+  font-size:15px;
+  color:#5B5B5B;
+  font-weight:100;
+  float:left;
+  margin-top:85px;
+  margin-left:230px;
+  position:absolute;
+  white-space: nowrap;
+}
+
+.current-humidity{
+  background-image: url('../assets/humidity.jpg');
+  margin-top:140px;
+}
+
+.current-humidity2{
+  margin-top:135px;
+}
+
+.current-humidity3{
+  margin-top:155px;
+}
+
+.current-pressure2{
+  margin-top:205px;
+}
+
+.current-pressure3{
+  margin-top:225px;
+}
+
+.current-pressure{
+  background-image: url('../assets/barometer.png');
+  margin-top:210px;
+}
+
+.current-maxt{
+  margin-top:280px;
+  background-image: url('../assets/maxt.png');
+}
+
+.current-maxt2{
+  margin-top:275px;
+}
+
+.current-maxt3{
+  margin-top:295px;
+}
+
+.current-sunset{
+  background-image: url('../assets/sunset.png');
+  margin-top:350px;
+}
+
+.current-sunset2{
+  margin-top:345px;
+}
+
+.current-sunset3{
+  margin-top:365px;
+}
+
+/*styling of navigation widgets at bottom of page*/
+
+.bottom {
+  margin-left:5px;
+  margin-right:5px;
+}

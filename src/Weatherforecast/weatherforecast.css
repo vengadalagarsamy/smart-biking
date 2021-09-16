@@ -1,0 +1,122 @@
+
+.forecast-headingsec{
+    height: 15%;
+}
+
+.forecast-branding {
+    text-align: center;
+    font-size: 35px;
+    vertical-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.forecast-mainbody {
+    height: 65%;
+}
+
+.forecast-bodycontent {
+    height: 90%;
+    border-radius: 25px;
+    outline: none;
+    color: #000;
+    text-align: center;
+    padding: 25px 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #F9F9F9;
+    opacity: 0.7;
+    float: center;
+    text-align: left;
+}
+
+.forecast-bodymaintitle {
+    margin-bottom: 0;
+    margin-top:5px;
+    font-weight:400;
+    font-size: 20px
+}
+
+.forecast-bodydatetitle{
+    margin-top: 4px;
+    margin-bottom:25px;
+    font-weight:400;
+    font-size: 15px
+}
+
+.forecast-tablesec{
+  margin-bottom:10px;
+}
+.forecast-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.forecast-tableheadrow {
+    border-top: 2px solid rgba(169,169,169,0.8);
+    height: 40px;
+}
+
+.forecast-tablecolumnhedate {
+    font-size: 17px;
+    width: 50px;
+    text-align: center;
+}
+
+.forecast-tablecolumnhetemp {
+    font-size: 17px;
+    text-align: center;
+}
+
+.forecast-tablecolumnhemain {
+    background-image: url('../assets/cloud.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.forecast-tablecolumnhehum {
+    background-image: url('../assets/humidity.jpg');
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.forecast-tablecolumnhepres {
+    background-image: url('../assets/barometer.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.forecast-tablerow {
+    border-top: 2px solid rgba(169,169,169,0.8);
+    height: 65px;
+}
+
+.forecast-tablecolumndate {
+    font-size: 14px;
+    font-weight: 600;
+    width: 50px;
+    text-align: center;
+}
+
+.forecast-tablecolumntemp {
+    font-size: 15px;
+    text-align: center;
+}
+
+.forecast-tablecolumnmain {
+    font-size: 15px;
+    text-align: center;
+}
+
+.forecast-tablecolumnhum {
+    font-size: 15px;
+    text-align: center;
+}
+
+.forecast-tablecolumnpres {
+    font-size: 15px;
+    text-align: center;
+}

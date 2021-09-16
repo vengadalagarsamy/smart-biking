@@ -1,0 +1,229 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+    background-image: url('../assets/sunny.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    width: 414px;
+    height: 786px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.app.cloudy {
+    background-image: url('../assets/cloudy.jpg');
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.weatherhead {
+  height: 200px;
+  padding-bottom:30px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  color:#fff;
+}
+
+.name_1 {
+  color:#fff;
+}
+
+.name_2 {
+  color:#fff;
+  font-weight:400;
+}
+
+.search-bar {
+  width: 80%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 21px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #999;
+}
+
+.date {
+  font-size: 18px;
+  padding-top:35px;
+}
+
+.city {
+  font-size: 32px;
+  font-weight: 10;
+  padding-top: 10px;
+}
+
+.temperat {
+  font-size:65px;
+  font-weight:100;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.condition {
+  font-size: 18px;
+  font-weight: 100;
+  padding-bottom: 5px;
+}
+
+/* ------------ App buttons --------------- */
+
+.Current {
+  height:150px;
+  width:100px;
+  float:left;
+  width:43%;
+  margin-left: 20px;
+  background-image: url('../assets/sun.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 50% 15px;
+  background-color: #F9F9F9;
+  opacity: 0.6;
+  border-radius: 10px;
+  color: #000;
+  }
+
+.WeaFor {
+  height:150px;
+  width:100px;
+  float:right;
+  width:43%;
+  margin-right: 20px;
+  background-image: url('../assets/weather-forecast.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 50% 15px;
+  background-color: #F9F9F9;
+  opacity: 0.6;
+  border-radius: 10px;
+  color: #000;
+}
+
+.Gear {
+  height:150px;
+  width:100px;
+  float:left;
+  width:43%;
+  margin-left: 20px;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 50% 15px;
+  background-color: #F9F9F9;
+  opacity: 0.6;
+  border-radius: 10px;
+  color: #000;
+  margin-top: 50px;
+  background-image: url('../assets/helmet.png');
+}
+
+.Search {
+  height:150px;
+  width:100px;
+  float:right;
+  width:43%;
+  margin-right: 20px;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 50% 15px;
+  background-color: #F9F9F9;
+  opacity: 0.6;
+  border-radius: 10px;
+  color: #000;
+  margin-top: 50px;
+  background-image: url('../assets/location.png');
+}
+
+.name2 {
+  padding-top: 95px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.name3 {
+  padding-top: 105px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ------- Widget buttons at bottom of pages ---------- */
+
+
+.widget-home {
+  height:100px;
+  width: 26%;
+  float:left;
+  background-image: url('../assets/home.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #F9F9F9;
+  opacity: 0.65;
+  border-radius: 10px;
+  color: #000;
+}
+
+.widget-weafor {
+  height:100px;
+  width: 26%;
+  float:center;
+  background-image: url('../assets/weather-forecast.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #F9F9F9;
+  opacity: 0.65;
+  border-radius: 10px;
+  color: #000;
+}
+
+.widget-current {
+  height:100px;
+  width: 26%;
+  float:right;
+  background-image: url('../assets/sun.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #F9F9F9;
+  opacity: 0.65;
+  border-radius: 10px;
+  color: #000;
+}
+
+.widget-gear {
+  height:100px;
+  width: 26%;
+  float:right;
+  background-image: url('../assets/helmet.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #F9F9F9;
+  opacity: 0.65;
+  border-radius: 10px;
+  color: #000;
+}
+
+.widget-current2 {
+  height:100px;
+  width: 26%;
+  float:center;
+  background-image: url('../assets/sun.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #F9F9F9;
+  opacity: 0.65;
+  border-radius: 10px;
+  color: #000;
+}

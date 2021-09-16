@@ -1,0 +1,51 @@
+.search-mainpage {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./assets/sunny.jpg');
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+    width: 414px;
+    height: 786px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.search-branding {
+    padding-top: 220px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.search-mainbody{
+    color: rgba(0, 0, 0, 0.795);
+}
+
+.search-searchbar{
+    border-radius: 15px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    /*background: rgba(0, 0, 0, 0.1);*/
+    border: 1px solid #E5E5E5;
+    padding: 7px 30px;
+}
+
+.search-giventxt {
+    font-size:18px;
+    font-weight:400;
+}
+
+.button {
+  background-color: #4CA6FF;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
