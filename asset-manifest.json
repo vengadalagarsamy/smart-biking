@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/smart-biking/static/css/main.6b97fed2.chunk.css",
+    "main.js": "/smart-biking/static/js/main.4d522b3d.chunk.js",
+    "main.js.map": "/smart-biking/static/js/main.4d522b3d.chunk.js.map",
+    "runtime-main.js": "/smart-biking/static/js/runtime-main.29478970.js",
+    "runtime-main.js.map": "/smart-biking/static/js/runtime-main.29478970.js.map",
+    "static/js/2.c20258de.chunk.js": "/smart-biking/static/js/2.c20258de.chunk.js",
+    "static/js/2.c20258de.chunk.js.map": "/smart-biking/static/js/2.c20258de.chunk.js.map",
+    "static/js/3.e051ffa1.chunk.js": "/smart-biking/static/js/3.e051ffa1.chunk.js",
+    "static/js/3.e051ffa1.chunk.js.map": "/smart-biking/static/js/3.e051ffa1.chunk.js.map",
+    "index.html": "/smart-biking/index.html",
+    "static/css/main.6b97fed2.chunk.css.map": "/smart-biking/static/css/main.6b97fed2.chunk.css.map",
+    "static/js/2.c20258de.chunk.js.LICENSE.txt": "/smart-biking/static/js/2.c20258de.chunk.js.LICENSE.txt",
+    "static/media/currentweather.css": "/smart-biking/static/media/wind.3e0536af.jpg",
+    "static/media/home.css": "/smart-biking/static/media/weather-forecast.63e77c23.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29478970.js",
+    "static/js/2.c20258de.chunk.js",
+    "static/css/main.6b97fed2.chunk.css",
+    "static/js/main.4d522b3d.chunk.js"
+  ]
+}
